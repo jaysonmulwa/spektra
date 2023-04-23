@@ -13,7 +13,7 @@ $ npm install spektra
 ## Features
  1. Eigenvalues
     ```js
-    import { eigenvalues } from 'spectra');
+    const { eigenvalues } = require('spectra');
     const A = [[1, 2], [2, 1]];
     const eig = eigenvalues(A);
     console.log(eig);
@@ -22,7 +22,7 @@ $ npm install spektra
 
  2. Determinant
     ```js
-    import { determinant } from 'spectra';
+    const { determinant } = require('spectra');
     const A = [[1, 2], [2, 1]];
     const det = determinant(A);
     console.log(det);
@@ -30,7 +30,7 @@ $ npm install spektra
     ```
  3. Mean
     ```js
-    import { mean } from 'spectra';
+    const { mean } = require('spectra');
     const A = [[1, 2], [2, 1]];
     const m = mean(A);
     console.log(m);
