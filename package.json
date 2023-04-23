@@ -2,8 +2,8 @@
   "name": "spektra",
   "version": "1.0.0",
   "description": "spectral graph theory",
-  "main": "dist/index.ts",
-  "types": "dist/index.d.ts",
+  "main": "dist/index.js",
+  "types": "dist/types.js",
   "files": [
     "/dist"
   ],
