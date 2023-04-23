@@ -7,7 +7,7 @@
 ## Installation
 
 ```console
-$ npm install spectra
+$ npm install spektra
 ```
 
 ## Features
