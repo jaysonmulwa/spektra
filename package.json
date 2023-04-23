@@ -1,6 +1,6 @@
 {
   "name": "spektra",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "spectral graph theory",
   "main": "dist/index.js",
   "types": "dist/types.js",
