@@ -9,3 +9,4 @@ function determinant(matrix) {
     return (a * b) - (c * d);
 }
 exports.determinant = determinant;
+//# sourceMappingURL=determinant.js.map

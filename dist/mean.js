@@ -7,3 +7,4 @@ function mean(matrix) {
     return (a * d) / 2;
 }
 exports.mean = mean;
+//# sourceMappingURL=mean.js.map

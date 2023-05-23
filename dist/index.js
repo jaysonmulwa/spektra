@@ -7,3 +7,4 @@ var determinant_js_1 = require("./determinant.js");
 Object.defineProperty(exports, "determinant", { enumerable: true, get: function () { return determinant_js_1.determinant; } });
 var mean_js_1 = require("./mean.js");
 Object.defineProperty(exports, "mean", { enumerable: true, get: function () { return mean_js_1.mean; } });
+//# sourceMappingURL=index.js.map

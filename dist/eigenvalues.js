@@ -9,9 +9,7 @@ function eigenvalues(matrix) {
     const rootPart = Math.sqrt(Math.pow(m, 2) - p);
     const lambdaOne = m + rootPart;
     const lambdaTwo = m - rootPart;
-    return {
-        lambdaOne: lambdaOne,
-        lambdaTwo: lambdaTwo,
-    };
+    return [lambdaOne, lambdaTwo];
 }
 exports.eigenvalues = eigenvalues;
+//# sourceMappingURL=eigenvalues.js.map
