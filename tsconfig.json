@@ -7,7 +7,10 @@
       "declaration": false,
       "removeComments": true,
       "noEmitOnError": true,
-      "sourceMap": true
+      "sourceMap": true,
+      "strict": true,
+      "noImplicitAny": true,
+      "noImplicitReturns": true
     },
     "include": [
       "src/**/*"
