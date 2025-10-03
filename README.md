@@ -36,11 +36,39 @@ $ npm install spektra
     console.log(m);
     // 1.5
     ```
+ 4. Laplacian Matrix
+    ```js
+    const { laplacian } = require('spectra');
+    const edges = [[0, 1], [1, 2]];
+    const numVertices = 3;
+    const L = laplacian(edges, numVertices);
+    console.log(L);
+    // [[1, -1, 0], [-1, 2, -1], [0, -1, 1]]
+    ```
+ 5. Characteristic Polynomial
+    ```js
+    const { characteristicPolynomial } = require('spectra');
+    const A = [[1, 2], [3, 4]];
+    const p = characteristicPolynomial(A);
+    console.log(p);
+    // [-2, -5, 1]  (represents λ^2 - 5λ - 2)
+    ```
+ 6. Cospectrality
+    ```js
+    const { areCospectral, adjacency } = require('spectra');
+    const edges1 = [[0, 1], [1, 2], [2, 3], [3, 0]]; // C4
+    const A1 = adjacency(edges1, 5); // C4 U K1
+    const edges2 = [[0, 4], [1, 4], [2, 4], [3, 4]]; // K1,4 (star graph)
+    const A2 = adjacency(edges2, 5);
+    const cospectral = areCospectral(A1, A2);
+    console.log(cospectral);
+    // true
+    ```
 ## Roadmap
 - [x] 1. Adjacency matrix 
-- [ ] 2. Laplacian matrix.
-- [ ] 3. Characteristic polynomial
-- [ ] 4. Cospectrality
+- [x] 2. Laplacian matrix.
+- [x] 3. Characteristic polynomial
+- [x] 4. Cospectrality
 
 ## Contribute
 
