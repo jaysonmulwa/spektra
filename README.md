@@ -1,3 +1,7 @@
+
+[![npm version](https://img.shields.io/npm/v/spektra.svg)](https://www.npmjs.com/package/spektra)
+[![npm downloads](https://img.shields.io/npm/dm/spektra.svg)](https://www.npmjs.com/package/spektra)
+
 # Spektra
 spectral graph theory library
 
