@@ -1,6 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.eigenvalues = void 0;
+exports.eigenvalues = eigenvalues;
 const determinant_1 = require("./determinant");
 const mean_1 = require("./mean");
 function eigenvalues(matrix) {
@@ -14,4 +14,3 @@ function eigenvalues(matrix) {
         lambdaTwo: lambdaTwo,
     };
 }
-exports.eigenvalues = eigenvalues;
