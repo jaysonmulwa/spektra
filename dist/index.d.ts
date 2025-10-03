@@ -1,4 +1,7 @@
-export { eigenvalues } from './eigenvalues.js';
-export { determinant } from './determinant.js';
-export { mean } from './mean.js';
-export { adjacency } from './adjacency.js';
+export { eigenvalues } from './eigenvalues';
+export { determinant } from './determinant';
+export { mean } from './mean';
+export { adjacency } from './adjacency';
+export { laplacian } from './laplacian';
+export { characteristicPolynomial } from './characteristicPolynomial';
+export { areCospectral } from './cospectral';
