@@ -37,10 +37,10 @@ $ npm install spektra
     // 1.5
     ```
 ## Roadmap
-1. Adjacency matrix 
-2. Laplacian matrix.
-3. Characteristic polynomial
-4. Cospectrality
+- [x] 1. Adjacency matrix 
+- [ ] 2. Laplacian matrix.
+- [ ] 3. Characteristic polynomial
+- [ ] 4. Cospectrality
 
 ## Contribute
 
