@@ -1,8 +1,9 @@
 # Spektra
- spectral graph theory library
+spectral graph theory library
 
- In mathematics, spectral graph theory is the study of the properties of a graph in relationship to the characteristic polynomial, eigenvalues, and eigenvectors of matrices associated with the graph, such as its adjacency matrix or Laplacian matrix.
+In mathematics, spectral graph theory is the study of the properties of a graph in relationship to the characteristic polynomial, eigenvalues, and eigenvectors of matrices associated with the graph, such as its adjacency matrix or Laplacian matrix.
 
+Spectral graph theory is central to many modern applications such as clustering algorithms, graph partitioning, network robustness analysis, image segmentation, and even emerging fields like quantum computing. The development of algorithms that leverage spectral properties allows for efficient handling of massive graphs where traditional combinatorial methods are insufficient.
 
 ## Installation
 
@@ -64,18 +65,42 @@ $ npm install spektra
     console.log(cospectral);
     // true
     ```
-## Roadmap
-- [x] 1. Adjacency matrix 
-- [x] 2. Laplacian matrix.
-- [x] 3. Characteristic polynomial
-- [x] 4. Cospectrality
+
+## Roadmap - Completed
+
+| Item | Status |
+|---|---:|
+| Adjacency matrix | Completed |
+| Laplacian matrix | Completed |
+| Characteristic polynomial | Completed |
+| Cospectrality | Completed |
+
+## Roadmap - Spectral Properties and Algorithms
+
+| Function / Feature | Description | Relevance to Current Roadmap |
+|---|---|---|
+| Eigenvalues and Eigenvectors | Compute eigenvalues and eigenvectors for adjacency and Laplacian matrices. | Essential for characteristic polynomial and cospectrality. |
+| Spectral Radius | Largest absolute eigenvalue of the adjacency matrix. | Derived from eigenvalue computation; useful in network analysis. |
+| Spectral Clustering Utility | Utilities using Laplacian eigenvectors for graph partitioning (e.g., Fiedler vector). | Practical application of Laplacian spectrum. |
+| Matching Polynomial | Polynomial related to number of matchings of various sizes. | Similar role to characteristic polynomial in revealing structure. |
+
+
+## Roadmap - Utilities and Input/Output
+| Function / Feature | Description | Relevance to Current Roadmap |
+|---|---|---|
+| Graph Input/Output (e.g., GML, DOT, JSON) | Standardized methods to load a graph from and save a graph to common formats. | Crucial for real-world usability. |
+| Graph Generation (e.g., specific graph types) | Functions to generate common graph structures like complete graphs (K_n), cycles (C_n), paths (P_n), or basic random graphs (Erdos-Renyi). | Provides test cases and ready-to-use examples for the spectral functions. |
+| Graph Isomorphism Check | Determine if two graphs are structurally identical (potentially using spectral methods as a quick check, though not a complete solution). | |
 
 ## Contribute
 
-There are many ways to contribute to Spectra.
-* Submit bugs and help us verify fixes as they are checked in.
-* Review the source code changes.
+| Ways to help | Details |
+|---|---|
+| Report bugs | Submit issues and help verify fixes. |
+| Review code | Review pull requests and changes in source. |
 
 ## License
 
-[MIT](LICENSE)
+| Type |
+|---|
+| [MIT](LICENSE) |
