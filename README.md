@@ -26,7 +26,7 @@ $ npm install spektra
 ## Features
  1. Eigenvalues
     ```js
-    const { eigenvalues } = require('spectra');
+    const { eigenvalues } = require('spektra');
     const A = [[1, 2], [2, 1]];
     const eig = eigenvalues(A);
     console.log(eig);
@@ -35,7 +35,7 @@ $ npm install spektra
 
  2. Determinant
     ```js
-    const { determinant } = require('spectra');
+    const { determinant } = require('spektra');
     const A = [[1, 2], [2, 1]];
     const det = determinant(A);
     console.log(det);
@@ -43,15 +43,15 @@ $ npm install spektra
     ```
  3. Mean
     ```js
-    const { mean } = require('spectra');
+    const { mean } = require('spektra');
     const A = [[1, 2], [2, 1]];
     const m = mean(A);
     console.log(m);
-    // 1.5
+    // 0.5
     ```
  4. Laplacian Matrix
     ```js
-    const { laplacian } = require('spectra');
+    const { laplacian } = require('spektra');
     const edges = [[0, 1], [1, 2]];
     const numVertices = 3;
     const L = laplacian(edges, numVertices);
@@ -60,15 +60,15 @@ $ npm install spektra
     ```
  5. Characteristic Polynomial
     ```js
-    const { characteristicPolynomial } = require('spectra');
+    const { characteristicPolynomial } = require('spektra');
     const A = [[1, 2], [3, 4]];
     const p = characteristicPolynomial(A);
     console.log(p);
-    // [-2, -5, 1]  (represents λ^2 - 5λ - 2)
+    // [-3, -2, 1]  (represents λ^3 - 2λ - 1)
     ```
  6. Cospectrality
     ```js
-    const { areCospectral, adjacency } = require('spectra');
+    const { areCospectral, adjacency } = require('spektra');
     const edges1 = [[0, 1], [1, 2], [2, 3], [3, 0]]; // C4
     const A1 = adjacency(edges1, 5); // C4 U K1
     const edges2 = [[0, 4], [1, 4], [2, 4], [3, 4]]; // K1,4 (star graph)
