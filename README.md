@@ -103,8 +103,7 @@ $ npm install spektra
 | Report bugs | Submit issues and help verify fixes. |
 | Review code | Review pull requests and changes in source. |
 
-## License
+### License
 
-| Type |
-|---|
-| [MIT](LICENSE) |
+Copyright © 2023, [Jayson Mulwa](https://github.com/jaysonmulwa).
+Released under the [MIT License](LICENSE).
