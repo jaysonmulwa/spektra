@@ -1,7 +1,8 @@
 {
   "name": "spektra",
   "version": "1.0.3",
-  "description": "spectral graph theory",
+  "keywords": ["math", "mathematics", "graph theory", "spectral graph theory", "eigen values", "eigen vectors", "laplacian matrix", "adjacency matrix", "cospectrality"],
+  "description": "A library for spectral graph theory.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "files": [
