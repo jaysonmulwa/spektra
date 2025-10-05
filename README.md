@@ -2,7 +2,7 @@
 [![npm version](https://img.shields.io/npm/v/spektra.svg)](https://www.npmjs.com/package/spektra)
 [![npm downloads](https://img.shields.io/npm/dm/spektra.svg)](https://www.npmjs.com/package/spektra)
 
-# Spektra
+# spektra
 spectral graph theory library
 
 In mathematics, spectral graph theory is the study of the properties of a graph in relationship to the characteristic polynomial, eigenvalues, and eigenvectors of matrices associated with the graph, such as its adjacency matrix or Laplacian matrix.
