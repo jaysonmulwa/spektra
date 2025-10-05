@@ -7,8 +7,16 @@ spectral graph theory library
 
 In mathematics, spectral graph theory is the study of the properties of a graph in relationship to the characteristic polynomial, eigenvalues, and eigenvectors of matrices associated with the graph, such as its adjacency matrix or Laplacian matrix.
 
-Spectral graph theory is central to many modern applications such as clustering algorithms, graph partitioning, network robustness analysis, image segmentation, and even emerging fields like quantum computing. The development of algorithms that leverage spectral properties allows for efficient handling of massive graphs where traditional combinatorial methods are insufficient.
+## Why is this needed?
+The development of algorithms that leverage spectral properties allows for efficient handling of massive graphs where traditional combinatorial methods are insufficient.
 
+Spectral graph theory is central to many modern applications: 
+- clustering algorithms
+- graph partitioning
+- network robustness analysis
+- image segmentation
+- and even emerging fields like quantum computing.
+  
 ## Installation
 
 ```console
@@ -98,12 +106,9 @@ $ npm install spektra
 
 ## Contribute
 
-| Ways to help | Details |
-|---|---|
-| Report bugs | Submit issues and help verify fixes. |
-| Review code | Review pull requests and changes in source. |
+Pull requests and stars are always welcome. For bugs and feature requests, [please create an issue](../../issues/new).
 
-### License
+## License
 
 Copyright © 2023, [Jayson Mulwa](https://github.com/jaysonmulwa).
 Released under the [MIT License](LICENSE).
