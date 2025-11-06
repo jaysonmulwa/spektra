@@ -1,6 +1,7 @@
 
 [![npm version](https://img.shields.io/npm/v/spektra.svg)](https://www.npmjs.com/package/spektra)
 [![npm downloads](https://img.shields.io/npm/dm/spektra.svg)](https://www.npmjs.com/package/spektra)
+[![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/jaysonmulwa/spektra)
 
 # spektra
 spectral graph theory library
